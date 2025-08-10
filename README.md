@@ -9,7 +9,21 @@ You can run the main script using the following shell command:
 ```sh
 uv run main.py
 ```
+## Output of this example
 
+```log
+[(1, 'ham'), (2, 'spam'), (3, 'jam')]
+shape: (3, 2)
+┌─────┬──────┐
+│ foo ┆ bar  │
+│ --- ┆ ---  │
+│ i64 ┆ str  │
+╞═════╪══════╡
+│ 1   ┆ ham  │
+│ 2   ┆ spam │
+│ 3   ┆ jam  │
+└─────┴──────┘
+```
 
 
 
