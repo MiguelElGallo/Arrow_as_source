@@ -1,0 +1,12 @@
+[project]
+name = "arrow-as-source"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "arrow>=1.3.0",
+    "duckdb>=1.3.2",
+    "polars>=1.32.2",
+    "pyarrow>=21.0.0",
+]
